@@ -15,39 +15,39 @@
     <h1>Calculator</h1>
     <div class="container1">
         <div class="dis">
-            <input type="text" class="display">
+            <input id="myInput" type="text" name="display" class="display">
         </div>
         <div class="container">
         <div>
-        <button class="btn-ac">AC</button>
-        <button class="btn7">7</button>
-        <button class="btn4">4</button>
-        <button class="btn1">1</button>
-        <button class="btn0">0</button>
+        <button class=" btn-ac" id="btn-ac" onclick="display.value = '' ">AC</button>
+        <button id="myButton" class=" btn btn7" name="7" onclick="display.name ='7' ">7</button>
+        <button class=" btn btn4">4</button>
+        <button class=" btn btn1">1</button>
+        <button class=" btn btn0">0</button>
         </div>
         <div>
-        <button class="btn-b">()</button>
-        <button class="btn8">8</button>
-        <button class="btn5">5</button>
-        <button class="btn2">2</button>
-        <button class="btn8">.</button>
+        <button class=" btn btn-b">()</button>
+        <button class=" btn btn8">8</button>
+        <button class=" btn btn5">5</button>
+        <button class=" btn btn2">2</button>
+        <button class=" btn btn8">.</button>
         </div>
         <div>
-        <button class="btn-p">%</button>
-        <button class="btn9">9</button>
-        <button class="btn6">6</button>
-        <button class="btn3">3</button>
-        <button class="btnc"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="35" fill="currentColor" class="bi bi-backspace" viewBox="0 0 16 16">
+        <button class=" btn btn-p">%</button>
+        <button class=" btn btn9">9</button>
+        <button class=" btn btn6">6</button>
+        <button class=" btn btn3">3</button>
+        <button class="btn btnc"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="35" fill="currentColor" class=" btn bi bi-backspace" viewBox="0 0 16 16">
                 <path d="M5.83 5.146a.5.5 0 0 0 0 .708L7.975 8l-2.147 2.146a.5.5 0 0 0 .707.708l2.147-2.147 2.146 2.147a.5.5 0 0 0 .707-.708L9.39 8l2.146-2.146a.5.5 0 0 0-.707-.708L8.683 7.293 6.536 5.146a.5.5 0 0 0-.707 0z"/>
                 <path d="M13.683 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-7.08a2 2 0 0 1-1.519-.698L.241 8.65a1 1 0 0 1 0-1.302L5.084 1.7A2 2 0 0 1 6.603 1zm-7.08 1a1 1 0 0 0-.76.35L1 8l4.844 5.65a1 1 0 0 0 .759.35h7.08a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"/>
               </svg></button>
         </div>
         <div>
-        <button class="btn-d">/</button>
-        <button class="btn-m">*</button>
-        <button class="btn-s">-</button>
-        <button class="btn-a">+</button>
-        <button class="btn-e">=</button>
+        <button class=" btn btn-d">/</button>
+        <button class=" btn btn-m">*</button>
+        <button class=" btn btn-s">-</button>
+        <button class=" btn btn-a">+</button>
+        <button class=" btn btn-e">=</button>
         </div>
         </div>
     </div>
@@ -55,5 +55,9 @@
         <p>@Copyright Reserved | 2024 | Calculator |</p>
         <span>Designed by TylerDude</span>
     </footer>
+
+        
+    <script src="./para.js"></script>
+        
 </body>
 </html>
